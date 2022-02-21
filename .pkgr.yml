@@ -104,6 +104,7 @@ targets:
   #     - libimlib2
   #     - libimlib2-dev
   #     - shared-mime-info
+
   sles-12:
     dependencies:
       - curl
