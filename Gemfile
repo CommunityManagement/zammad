@@ -19,7 +19,7 @@ gem 'unicorn', group: :unicorn
 
 # core - supported ORMs
 gem 'activerecord-nulldb-adapter', group: :nulldb
-gem 'mysql2', group: :mysql
+# gem 'mysql2', group: :mysql
 gem 'pg', '0.21.0', group: :postgres
 
 # core - asynchrous task execution
@@ -42,7 +42,7 @@ gem 'aasm'
 gem 'pundit'
 
 # core - image processing
-gem 'rszr', '0.5.2'
+gem 'rszr', git: 'https://github.com/mtgrosser/rszr'#, '0.5.2'
 
 # performance - Memcached
 gem 'dalli', require: false
