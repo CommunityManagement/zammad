@@ -223,6 +223,11 @@ group :development, :test do
   gem 'slack-ruby-client', require: false
 end
 
+group :development do
+  # Email preview
+  gem 'letter_opener'
+end
+
 # Want to extend Zammad with additional gems?
 # ZAMMAD USERS: Specify them in Gemfile.local
 #               (That way, you can customize the Gemfile

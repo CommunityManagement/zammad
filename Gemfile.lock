@@ -274,6 +274,10 @@ GEM
       faraday (< 2)
       json (>= 1.8)
       rexml
+    launchy (2.5.0)
+      addressable (~> 2.7)
+    letter_opener (1.7.0)
+      launchy (~> 2.2)
     libv8 (8.4.255.0)
     listen (3.7.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -639,6 +643,7 @@ DEPENDENCIES
   icalendar-recurrence
   json
   koala
+  letter_opener
   libv8
   mail!
   messagebird-rest
