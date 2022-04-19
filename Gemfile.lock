@@ -1,10 +1,4 @@
 GIT
-  remote: https://github.com/mtgrosser/rszr
-  revision: ad5e46ce1e47c2faa4fa1c70ceca6d552587b03e
-  specs:
-    rszr (1.2.0)
-
-GIT
   remote: https://github.com/zammad-deps/autodiscover
   revision: ee9b53dfa797ce6d4f970b82beea7fbdd2df56bb
   specs:
@@ -466,6 +460,7 @@ GEM
       rspec-mocks (~> 3.10)
       rspec-support (~> 3.10)
     rspec-support (3.10.3)
+    rszr (1.2.1)
     rubocop (1.25.1)
       parallel (~> 1.10)
       parser (>= 3.1.0.0)
@@ -678,7 +673,7 @@ DEPENDENCIES
   rchardet (>= 1.8.0)
   redis
   rspec-rails
-  rszr!
+  rszr (= 1.2.1)
   rubocop
   rubocop-faker
   rubocop-inflector
