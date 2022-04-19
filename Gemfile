@@ -42,7 +42,7 @@ gem 'aasm'
 gem 'pundit'
 
 # core - image processing
-gem 'rszr', git: 'https://github.com/mtgrosser/rszr'#, '0.5.2'
+gem 'rszr', '1.2.1'
 
 # performance - Memcached
 gem 'dalli', require: false
