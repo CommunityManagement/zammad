@@ -74,4 +74,7 @@ Rails.application.configure do
   # TODO: New in Rails 6
   # See https://www.fngtps.com/2019/rails6-blocked-host/
   config.hosts.clear
+
+  config.action_mailer.delivery_method = :letter_opener
+  config.action_mailer.perform_deliveries = true
 end
